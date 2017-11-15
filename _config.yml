@@ -79,14 +79,14 @@ social:
     username: thebencentra
     url:
     desc: Friend me on Facebook
-    share: true
+    share: false
 
   - name: GitHub
     icon: github
     username: jakouk
     url: https://github.com/jakouk
     desc: Fork me on GitHub
-    share: false
+    share: true
 
 #  - name: LinkedIn
 #   icon: linkedin
@@ -100,7 +100,7 @@ social:
     username:
     url:
     desc: Add me to your Circles
-    share: true
+    share: false
 
   - name: YouTube
     icon: youtube
@@ -121,7 +121,7 @@ social:
     username:
     url:
     desc: Follow me on Pinterest
-    share: true
+    share: false
 
   - name: SoundCloud
     icon: soundcloud
@@ -170,7 +170,7 @@ social:
     username:
     url:
     desc: Share to Reddit
-    share: true
+    share: false
 
   - name: "Hacker News"
     icon: hacker-news
