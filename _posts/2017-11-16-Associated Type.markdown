@@ -15,10 +15,10 @@ categories: Swift
 #### Conatiner 프로토콜 정의
 ```swift
 protocol Container {
-associatedtype ItemType
-var count: Int { get }
-mutating func append(_ item: ItemType )
-subscript(i: Int) -> ItemType { get }
+  associatedtype ItemType
+  var count: Int { get }
+  mutating func append(_ item: ItemType )
+  subscript(i: Int) -> ItemType { get }
 }
 ```
 
