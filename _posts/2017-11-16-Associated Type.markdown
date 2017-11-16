@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Test Post"
@@ -6,6 +5,7 @@ date:   2017-11-16 17:12:20
 author: Jakouk
 categories: Swift
 ---
+
 # Associated Type ( 프로토콜 연관 타입 )
 
 #### Associated Type 이란
