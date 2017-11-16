@@ -22,22 +22,22 @@ subscript(i: Int) -> ItemType { get }
 }
 ```
 
-이런 프로토콜이 있을떄
+이런 프로토콜이 있을때
 
 ```swift
 class MyContainer: Container {
 var items: Array<Int> = Array<Int>()
 
 var count: Int {
-return items.count
+  return items.count
 }
 
 func append(_ item: Int) {
-items.append(item)
+  items.append(item)
 }
 
 subscript(i: Int) -> Int {
-return items[i]
+  return items[i]
 }
 ```
 Container 프로토콜을 따르는 MyContainer라는 클래스는 모든 요구사항을 충족한다.
