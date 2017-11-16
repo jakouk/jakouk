@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Test Post"
+title:  "Associated Type ( 프로토콜 연관 타입 )"
 date:   2017-11-16 17:12:20
 author: Jakouk
 categories: Swift
