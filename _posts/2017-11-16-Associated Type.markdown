@@ -26,18 +26,19 @@ protocol Container {
 
 ```swift
 class MyContainer: Container {
-var items: Array<Int> = Array<Int>()
+  var items: Array<Int> = Array<Int>()
 
-var count: Int {
-  return items.count
-}
+  var count: Int {
+    return items.count
+  }
 
-func append(_ item: Int) {
-  items.append(item)
-}
+  func append(_ item: Int) {
+    items.append(item)
+  }
 
-subscript(i: Int) -> Int {
-  return items[i]
+  subscript(i: Int) -> Int {
+    return items[i]
+  }
 }
 ```
 Container 프로토콜을 따르는 MyContainer라는 클래스는 모든 요구사항을 충족한다.
