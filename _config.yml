@@ -61,10 +61,10 @@ descriptions:
   - cat: Other
     desc: "Etc..."
     
-    - cat: Swift
+  - cat: Swift
     desc: "Swift programming "
     
-    - cat: iOS
+  - cat: iOS
     desc: "iOS Tips"
 
 # Social icons and sharing options
