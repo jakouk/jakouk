@@ -20,12 +20,12 @@ description: >
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jakouk.github.io" # the base hostname & protocol for your site
+cover: "/assets/header_image.jpg"
+logo: "/assets/logo.png"
 plugins:
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-paginate
-cover: "/assets/header_image.jpg"
-logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
@@ -39,7 +39,7 @@ jekyll-archives:
   enabled:
     - categories
     - tags
-  layout: 'archives'
+  layout: 'archive'
   permalinks:
     category: '/category/:name/'
     tag: '/tag/:name/'
