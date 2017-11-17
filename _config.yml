@@ -63,6 +63,9 @@ descriptions:
     
     - cat: Swift
     desc: "Swift programming "
+    
+    - cat: iOS
+    desc: "iOS Tips"
 
 # Social icons and sharing options
 #
