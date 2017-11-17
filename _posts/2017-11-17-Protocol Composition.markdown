@@ -44,3 +44,5 @@ celebrateBirthday(to: myCar)   // 오류 발생!! Aged를 충족시키지 못합
 
 celebrateBirthday 함수의 celebrator라는 매개변수는 Named & Aged를 충족해야만 한다는 것이다.
 
+#### 참조 
+* 스위프트 프로그래밍 ( 야곰 지음 )
