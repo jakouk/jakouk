@@ -60,6 +60,9 @@ descriptions:
     
   - cat: Other
     desc: "Etc..."
+    
+    - cat: Swift
+    desc: "Swift programming "
 
 # Social icons and sharing options
 #
