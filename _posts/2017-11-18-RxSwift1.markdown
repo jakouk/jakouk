@@ -7,7 +7,6 @@ categories: RxSwift
 ---
 
 # RxSwift 1
-##
 
 #### 고대의 프로그래밍
 
