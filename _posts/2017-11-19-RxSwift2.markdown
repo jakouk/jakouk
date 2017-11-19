@@ -1,0 +1,137 @@
+---
+layout: post
+title:  "RxSwift 2"
+date:   2017-11-19 17:45:20
+author: Jakouk
+categories: RxSwift
+---
+
+# RxSwift 2
+
+# Rxswift 2
+
+#### Observable
+
+Observable을 생성하는 가장 기본적인 문법
+
+```swift
+Observable<Element>
+.Opertator
+.subcribe(on: (Event<Int>)->Void))
+.disposed(by: DisposeBag)
+```
+
+#### Subscribe
+* Subscribe
+- Subscribe는 Enum 타입으로 .next, .error, .completed로 만들어져 있다.
+
+```swift
+let subscribe: (Event<Int>) -> Void = { (event: Event<Int>)
+in
+switch event {
+case let .next(element):
+print("next: \(element)")
+case let .error(error):
+print("error: \(error.localizedDescription)")
+case .completed:
+print("completed")
+}
+}
+```
+
+#### Disposed
+* Disposed
+- 메모리를 해제함.
+
+```swift
+var disposeBag: DisposeBag = DisposeBag()
+```
+
+#### Operator
+##### Create Operator
+
+* Create Operator
+- Observable을 하고 create에서 원하는 이벤트를 발생시킴. .
+
+```swift
+Observable<Int>.create { (observer: AnyObserver) ->
+Disposable in
+observer.on(Event.next(1))
+observer.on(Event.next(2))
+observer.on(Event.next(3))
+observer.onNext(4)
+observer.onNext(1)
+observer.onNext(6)
+observer.onCompleted()
+return Disposables.create {
+}
+}.subscribe(subscribe).disposed(by: disposeBag)
+```
+
+* Just Operator
+- create 를 축약하여 1번만 실행하는 코드이다.
+
+```swift
+Observable<Int>.just(1).subscribe { (event: Event<Int>)
+in
+switch event {
+case let .next(element):
+print("next: \(element)")
+case let .error(error):
+print("error: \(error.localizedDescription)")
+case .completed:
+print("completed")
+}
+}.disposed(by: disposeBag)
+```
+
+* Of Operator
+- create 를 축약하여 of element를 넣으면 순서대로 Event를 생성하는 Operator ( 최대 개수는 20개 정도 )
+
+```swift
+Observable<Int>
+.of(1,2,3,4)
+.subscribe(subscribe)
+.disposed(by: disposeBag)
+```
+
+* From Operator
+- from안에 Array를 넣으면 그 Array의 순서대로 Event를 생성하는 Operator
+
+```swift
+Observable<Int>
+.from([1,2,3,4])
+.subscribe(subscribe)
+.disposed(by: disposeBag)
+```
+
+* Empty Operator
+- Event가 없는 Oerator
+
+```swift
+Observable<Int>
+.empty()
+.subscribe(subscribe)
+.disposed(by: disposeBag)
+```
+
+* Never Operator
+- create안에 complete Event가 실행되는 Operator
+
+```swift
+Observable<Int>
+.never()
+.subscribe(subscribe)
+.disposed(by: disposeBag)
+```
+
+* Error Operator
+- create안에 Error Event가 실행되는 Operator
+
+```swift
+Observable<Int>
+.error()
+.subscribe(subscribe)
+.disposed(by: disposeBag)
+```
+
