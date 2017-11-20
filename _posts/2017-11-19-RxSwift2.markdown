@@ -87,10 +87,7 @@ Observable을 생성하는 가장 기본적인 문법
  	- create 를 축약하여 of element를 넣으면 순서대로 Event를 생성하는 Operator ( 최대 개수는 20개 정도 ) 
  
 	```swift
-		 Observable<Int>
-         	  .of(1,2,3,4)
-            	  .subscribe(subscribe)
-            	  .disposed(by: disposeBag)
+		 Observable<Int>.of(1,2,3,4).subscribe(subscribe).disposed(by: disposeBag)
 	```
     
  * From Operator 
