@@ -119,6 +119,7 @@ jenny.speak() // 저는 학생입니다. 대학생이죠.
  
  프로퍼티 재정의 
  * 읽기 전용 프로퍼티를 상속 받아서 읽기,쓰기가 가능한 프로퍼티로 재정의 할수도 있다. 
+ 
 ```swift
 class Person {
    var name: String = ""
@@ -238,6 +239,7 @@ jay.koreanAge = 15 // Person age : 14 Student age : 14
 jay.fullName = "Kim jay" // Full Name : Kim jay
     
 ``` 
+
 결과 
 * 읽기 전용 프로퍼티를 상속 받아서 읽기 쓰기가 가능한 프로퍼티로 재정의 할수 있다. 
 * 읽기 쓰기가 가능한 프로퍼티로 재정의한 프로퍼티는 프로퍼티 감시자를 사용할수 있다. 
