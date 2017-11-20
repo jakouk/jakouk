@@ -39,8 +39,8 @@ class Person {
 let yagom: Person = Person()
 yagom.name = "yagom"
 yagom.age = 99
-print(yagom.introduction)	// 이름 : yagom. 나이 : 99
-yagom.speak() 				// 가나다라마바사
+print(yagom.introduction) // 이름 : yagom. 나이 : 99
+yagom.speak() // 가나다라마바사
 ```
 
 #### 클래스 상속의 기본 문법
@@ -65,16 +65,16 @@ class Student: Person {
 let yagom: Person = Person()
 yagom.name = "yagom"
 yagom.age = 99
-print(yagom.introduction)	// 이름 : yagom. 나이 : 99
-yagom.speak()	// 가나다라마바사
+print(yagom.introduction) // 이름 : yagom. 나이 : 99
+yagom.speak() // 가나다라마바사
     
 let jay: Strudent = Student()
 jay.name = "jay"
 jay.age = 10
 jay.grade = "A"
-print(jay.introduction)		// 이름 : jay. 나이 : 10
-jay.speak()	 // 가나다라마바사
-jay.study()	 // Study hard...
+print(jay.introduction)	// 이름 : jay. 나이 : 10
+jay.speak() // 가나다라마바사
+jay.study() // Study hard...
 ```
 
 #### 재정의 ( Override )
@@ -268,7 +268,7 @@ final class Student: Person {
    }
 }
     
-    // 오류 Student class 앞에 final을 사용하여 클래스 상속을 막음 
+// 오류 Student class 앞에 final을 사용하여 클래스 상속을 막음 
 class UniversityStudent: Student {
     
 }
