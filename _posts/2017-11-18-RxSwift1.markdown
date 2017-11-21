@@ -29,8 +29,7 @@ categories: RxSwift
 		* 샌드박스 구조를 통해서 
 		* keyChain을 통해 공유, sdk등을 사용해서 공유 등등
 
-
-
+***
 #### 함수형 프로그래밍
 
 * 순수함수 
@@ -62,7 +61,7 @@ categories: RxSwift
 	```swift
 	func getImage(url: URL?) -> UIImage?
 	```
-	
+***	
 ### RxSwift
 - RX: Reactive Extension ( 반응형 확장 )
 
