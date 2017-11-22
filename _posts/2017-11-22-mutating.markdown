@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "mutating "
+date:   2017-11-22 17:17:20
+author: Jakouk
+categories: Swift
+---
+
+## mutating
+- 구조체나 열거형 등의 **값타입**이 자신의 프로퍼티 값을 수정할때는 메서드 앞에 mutating 키워드를 붙여서 해당 메서드가 인스턴스 **내부값을 변경**한다는 것을 명시해야한다. 
+
+```swift 
+struct LevelStruct {
+  var level: Int = 0 {
+    didSet {
+      print("Level \(level)")
+    }
+  
+  mutating func levelUp() {
+    print("Level Up!")
+    level += 1
+  }
+  
+  mutating func levelDown() {
+  	print("Level Down")
+    level -= 1
+    if level < 0 {
+      reset()
+    }
+  }
+  
+  mutating func jumpLevel(to: Int) {
+    print("Jump to \(to)")
+    level = to
+  }
+  
+  mutating func reset() {
+  	print("Reset!")
+    level = 0
+  }
+}
+
+var levelStructInstance: LevelStruct = LevelStruct()
+levelStructInstance.levelUp()  // Level Up! ( Level 1 )
+levelStructInstance.levelDown()  // Level Down ( Level 0 )
+levelStructInstance.levelDown()  // Level Down ( Level -1 -> Reset! -> Level 0 )
+levelStructInstance.jumpLevel(to: 3)  // Jump to 3 ( Level 3 )
+```
