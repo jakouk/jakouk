@@ -37,6 +37,7 @@ class Position {
 }
 
 ```
+
 ***
 ##### 지연 저장 프로퍼티 ( Lazy Stored Properties )
 - 지연 저장 프로퍼티는 호출이 있어야 값을 초기화 하며 lazy 키워드를 사용한다.
