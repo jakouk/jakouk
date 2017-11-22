@@ -142,6 +142,7 @@ print(AClass.typeComputedProperty) // 100
 - 프로퍼티 재정의를 통해 상속된 저장 프로퍼티 또는 연산 프로퍼티에도 적용이 가능하다.
 - 저장 프로퍼티에 적용할 수 있으며 부모클래스로부터 상속 받을수 있다. ( 재정의도 가능하지만 부모 클래스의 프로퍼티 감시자도 같이 호출된다.  ) 
 - didSet, willSet 키워드로 바뀌는 순간들을 감지할수 있다.
+
 ```swift
 class Account {
   var credit: Int = 0
