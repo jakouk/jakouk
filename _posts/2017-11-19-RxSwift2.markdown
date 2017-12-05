@@ -21,6 +21,7 @@ Observable을 생성하는 가장 기본적인 문법
 
 #### Subscribe
 * Subscribe
+	- Observable으 구독한다는 의미이다. 
 	- Subscribe는 Enum 타입으로 .next, .error, .completed로 만들어져 있다. 
 
 	```swift
@@ -49,7 +50,7 @@ Observable을 생성하는 가장 기본적인 문법
 ##### Create Operator
 
 * Create Operator
-	- Observable을 하고 create에서 원하는 이벤트를 발생시킴. .  
+	- Observable을 생성하고 create에서 원하는 이벤트를 발생시킴.
 
 	```swift
 	  Observable<Int>.create { (observer: AnyObserver) ->
