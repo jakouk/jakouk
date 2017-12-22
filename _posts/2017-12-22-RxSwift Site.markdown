@@ -30,8 +30,8 @@ categories: RxSwift
 2. [raywenderlich RxSwift 책](https://store.raywenderlich.com/products/rxswift?_ga=2.207441043.1642635043.1513921187-1620426128.1492580037)
  - iOS를 공부할수 있는 유명한 raywenderlich에서 만든 RxSwift 책이다. 이책도 영어로 쓰여져 있지만 충분히 볼만한 책인것 같다. 
  
-3. [devxoul님의 rxswfit slidershare](https://www.slideshare.net/devxoul/rxswift-81314827) 
+3. [devxoul님의 RxSwfit slidershare](https://www.slideshare.net/devxoul/rxswift-81314827) 
 - rx를 처음에 시작할때의 개념에 대해서 정말 잘 정리된 슬라이드이다. 
 
-4. [카카오톡 rxswift 오픈채팅](https://open.kakao.com/o/gl2YZjq)
-- 카카오톡 rxswift 오픈채팅이 있다. rxswift slack방의 영어가 어렵다면 이곳을 이용하면 될것 같다. 물어보면 다들 친절하게 알려주신다.   
+4. [카카오톡 RxSwift 오픈채팅](https://open.kakao.com/o/gl2YZjq)
+- 카카오톡 RxSwift 오픈채팅이 있다. rxswift slack방의 영어가 어렵다면 이곳을 이용하면 될것 같다. 물어보면 다들 친절하게 알려주신다.   
