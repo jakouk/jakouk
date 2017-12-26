@@ -24,8 +24,8 @@ categories: RxSwift
 
 ## 이외 
 
-1. rxswift.slack.com
- - rxswift slack 커뮤니티도 존재한다. 영어라는 장벽이 있지만 물어보면 답변을 꼭 해주신다. 
+1. [rxswift slack 커뮤니티](https://rxswift.slack.com)
+ - rxswift slack 커뮤니티도 존재한다. 영어라는 장벽이 있지만 물어보면 답변을 잘 해주는 편이다. 
  
 2. [raywenderlich RxSwift 책](https://store.raywenderlich.com/products/rxswift?_ga=2.207441043.1642635043.1513921187-1620426128.1492580037)
  - iOS를 공부할수 있는 유명한 raywenderlich에서 만든 RxSwift 책이다. 이책도 영어로 쓰여져 있지만 충분히 볼만한 책인것 같다. 
