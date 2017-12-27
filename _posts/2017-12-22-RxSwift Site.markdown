@@ -16,7 +16,7 @@ categories: RxSwift
   직접조작 하면서 어떻게 변하는지 알수 있다. 
   
 3. [pilwon](https://pilgwon.github.io/blog/2017/09/26/RxSwift-By-Examples-1-The-Basics.html)
- - pilwon님이라는 분의 사이트로 외국의 자료르 번역한 자료인데 1 ~ 4까지 모두 번역되어있다. 실습을 하면서 rx를 알수 있게 하는 좋은 글인것 같다.
+ - pilwon님이라는 분의 사이트로 외국의 자료를 번역한 자료인데 1 ~ 4까지 모두 번역되어있다. 실습을 하면서 rx를 알수 있게 하는 좋은 글인것 같다.
  
 4. [wade](https://brunch.co.kr/@tilltue/2)
  - wade님이라는 분의 사이트로 rx에 대한 기초부터 글을 작성하신 분이다. 좋은 글들이 많고 도움이 많이 되어서 사이트를 소개해 드렸다. 
