@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "iOS Method"
+title:  "iOS ViewController Method"
 date:   2018-01-01 15:36:20
 author: Jakouk
 categories: iOS
 ---
 
-## iOS viewController Method
+## iOS ViewController Method
 
 1. loadView()
 - viewController에 의해서 관리되는 메서드로 viweController는 현재 뷰가 nil일때 viewController를 호출한다. 따라서 storyboard를 사용하면
