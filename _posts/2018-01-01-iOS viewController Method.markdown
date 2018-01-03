@@ -20,8 +20,8 @@ loadView 메서드를 사용할 필요가 없고 코드만을 이용해서 화�
 코드만을 사용해서 만들경우 loadView()와 awakeFromNib()를 만들면 awkeFromNib()은 실행되지 않고 loadView()만 실행된다. 
 
 결국 loadView()나 awakeFromNib()를 사용할때
-Storyboard를 이용해서 작업하며  awakeFromNib
-코드만을 이용해서 작업하면  loadView를 사용하면 된다. 
+Storyboard를 이용해서 작업하면 awakeFromNib
+코드만을 이용해서 작업하면 loadView를 사용하면 된다. 
 
 
 
