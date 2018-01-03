@@ -13,12 +13,15 @@ categories: iOS
 loadView 메서드를 사용할 필요가 없고 코드만을 이용해서 화면을 만들경우 loadView()를 이용하면 된다. 
 
 2. awakeFromNib()
-- viewController에 의해서 관리되는 메서드로 viewController는 현재 뷰에 storyBoard에 있을때 부르게 된다.viewController의 메서드들 중에서
-가장 먼저 불린다. 
+- viewController에 의해서 관리되는 메서드로 viewController는 현재 뷰에 storyBoard에 있을때 부르게 된다. viewController의 메서드들 중에서
+가장 먼저 불린다.
 
-결국 loadView()나 awakeFromNib() 둘중 하나만 실행된다고 생각하면 될거 같다. 
-Storyboard를 사용할 경우는 awakeFromNib
-사용하지 않을 경우는 loadView를 사용하면 된다. 
+스토리보드를 사용해서 만들경우 loadView()와 awakeFromNib()를 만들면 awakeFromNib()이 실행되고 loadView()가 실행된다.
+코드만을 사용해서 만들경우 loadView()와 awakeFromNib()를 만들면 awkeFromNib()은 실행되지 않고 loadView()만 실행된다. 
+
+결국 loadView()나 awakeFromNib()를 사용할때
+Storyboard를 이용해서 작업하며  awakeFromNib
+코드만을 이용해서 작업하면  loadView를 사용하면 된다. 
 
 
 
