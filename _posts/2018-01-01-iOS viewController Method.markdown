@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "iOS ViewController Method"
-date:   2018-01-01 15:36:20
+date:   2018-01-02 15:36:20
 author: Jakouk
 categories: iOS
 ---
