@@ -6,7 +6,7 @@ author: Jakouk
 categories: iOS
 ---
 
-## iOS View관련 Mehotd
+## iOS View관련 Method
 
 1. loadView() vs awakeFromNib()
 - loadView()는 viewController에 의해서 관리되는 메서드로 viweController는 현재 뷰가 nil일때 viewController를 호출한다. 따라서 storyboard를 사용하면 loadView 메서드를 사용할 필요가 없고 코드만을 이용해서 화면을 만들경우 loadView()를 이용하면 된다. 
