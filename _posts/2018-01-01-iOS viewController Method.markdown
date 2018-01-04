@@ -23,7 +23,7 @@ loadView 메서드를 사용할 필요가 없고 코드만을 이용해서 화�
 Storyboard를 이용해서 작업하면 awakeFromNib
 코드만을 이용해서 작업하면 loadView를 사용하면 된다. 
 
-
+계속해서 Method들을 대해서 추가하면서 설명할 예정이다. 
 
 
 
