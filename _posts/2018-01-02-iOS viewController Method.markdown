@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "iOS ViewController Method"
+title:  "iOS View관련 Mehotd"
 date:   2018-01-02 15:36:20
 author: Jakouk
 categories: iOS
 ---
 
-## iOS ViewController Method
+## iOS View관련 Mehotd
 
 1. loadView()
 - viewController에 의해서 관리되는 메서드로 viweController는 현재 뷰가 nil일때 viewController를 호출한다. 따라서 storyboard를 사용하면
 loadView 메서드를 사용할 필요가 없고 코드만을 이용해서 화면을 만들경우 loadView()를 이용하면 된다. 
 
 2. awakeFromNib()
-- viewController에 의해서 관리되는 메서드로 viewController는 현재 뷰에 storyBoard에 있을때 부르게 된다. viewController의 메서드들 중에서
+- NSObject에 카테고리로 추가된 메서드로 viewController는 현재 뷰에 storyBoard에 있을때 부르게 된다. viewController의 메서드들 중에서
 가장 먼저 불린다.
 
 스토리보드를 사용해서 만들경우 loadView()와 awakeFromNib()를 만들면 awakeFromNib()이 실행되고 loadView()가 실행된다.
