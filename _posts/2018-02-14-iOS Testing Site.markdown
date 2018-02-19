@@ -13,4 +13,4 @@ categories: Other
 많이 있다. 
 
 2. [Jakub Turek - UI testing iOS Apps for humans](https://jakubturek.com/automated-ui-tests-in-ios-apps/)
-- Jakub Turek의 블로그 글이다. iOS App의 UI testing에 대하 글이다. 
+- Jakub Turek의 블로그 글로 iOS App의 UI testing에 대한 글이다. 
