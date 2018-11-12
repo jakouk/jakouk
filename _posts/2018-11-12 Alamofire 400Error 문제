@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "iOS Testing Site"
+date:   2018-02-14 09:50:20
+author: Jakouk
+categories: Other
+---
+
+## Alamofire 400 Error 문제 
+
+ 대부분의 경우 요청하는 URL이 잘못되어 있는 경우가 많다. 
+하지만 URL이 올바른 경우 Encoding 문제일 경우가 많다. 
+그럴 경우 encoding을 JSONEncoding.default나 URLEncoding.default로 수정하면 정상 작동될수 있다.  
